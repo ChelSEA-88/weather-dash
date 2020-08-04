@@ -1,0 +1,75 @@
+
+html,
+body {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	margin: 0;
+}
+
+.row {
+	margin-bottom: 30px;
+}
+
+#forecast-container {
+    
+        border: 1px solid #0000
+               
+}
+
+#city-name {
+    font-size: 25px;
+	font-weight: 500;
+	padding-right: 5px;
+	float: left;
+	color: #343a40;
+}
+
+#five-day-title {
+    font-size: 25px;
+	font-weight: 500;
+	color: #343a40;
+
+}
+
+
+#today {
+    background-color: #eaebeb;
+    border: 2px solid #0000
+}
+
+.card-container {
+	display: inline-flex;
+	flex-direction: row !important;
+}
+.row {
+	margin-bottom: 30px;
+}
+
+#five-card {
+	display: inline-table;
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	background-color: #999c9f !important;
+	border: 1px solid #343a40 !important;
+} 
+ /* .card img {
+    max-width: 50px;
+}  */
+
+ /* .row .bg-light {
+    background-size: 100px 50px;
+	border: 1px solid #c2c3c5;
+} */
+
+.clear {
+	text-align: left;
+	padding-left: 0;
+}
+
+#clear-button {
+	margin-top: 10px;
+	background-color: #fff;
+	border: 1px solid #c2c3c5;
+}
