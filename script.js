@@ -89,7 +89,7 @@ $(document).ready(function() {
                 console.log("humidity" + data.list[i].main.humidity)
 
                 var windSpeed = $("<div>", { id: "windspeed" });
-                windSpeed.text("Wind Speed", + data.list[i].wind.speed + "MPH");
+                windSpeed.text("Wind Speed", + data.list[0].wind.speed + "MPH");
 
                 var UVIndex = $("<div>", { id: "uv-index" });
 

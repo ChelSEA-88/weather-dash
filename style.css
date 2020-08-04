@@ -26,8 +26,8 @@ body {
 }
 
 #five-day-title {
-    font-size: 25px;
-	font-weight: 500;
+    font-size: 15px;
+	font-weight: 200;
 	color: #343a40;
 
 }
@@ -38,9 +38,10 @@ body {
     border: 2px solid #0000
 }
 
-.card-container {
-	display: inline-flex;
-	flex-direction: row !important;
+.forecast-container {
+	display: inline-block;
+	/* flex-direction: row !important; */
+	
 }
 .row {
 	margin-bottom: 30px;
@@ -49,19 +50,20 @@ body {
 #five-card {
 	display: inline-table;
 	padding: 10px;
-	margin: 10px;
+	margin: 2px;
 	color: white;
 	background-color: #999c9f !important;
-	border: 1px solid #343a40 !important;
+	width: 15%;
+	height: 5%;
 } 
- /* .card img {
+ .card img {
     max-width: 50px;
-}  */
+} 
 
- /* .row .bg-light {
+ .row .bg-light {
     background-size: 100px 50px;
 	border: 1px solid #c2c3c5;
-} */
+}
 
 .clear {
 	text-align: left;
@@ -72,4 +74,7 @@ body {
 	margin-top: 10px;
 	background-color: #fff;
 	border: 1px solid #c2c3c5;
+}
+#main-content-container {
+	flex: 1 0 auto;
 }
